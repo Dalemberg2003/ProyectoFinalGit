@@ -78,7 +78,7 @@ nav > a:hover {
 	width: 100%;
 	max-width: 1000px;
 	margin: 20px auto;
-        float: right;
+  float: right;
 }
 
 .contenedor2 .btn-abrir-popup {
@@ -419,7 +419,6 @@ footer {
     width: 44%;
   }
 
-
 @media screen and (max-width: 500px) {
   nav {
     text-align: center;
@@ -459,6 +458,20 @@ footer {
 
   .imagen-port {
     width: 95%;
+  }
+
+  /* Clients */
+
+  .cards .card {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards .card img {
+    width: 90px;
+    height: 90px;
   }
 
   /* Footer */

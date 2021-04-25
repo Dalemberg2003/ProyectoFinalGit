@@ -75,9 +75,10 @@ nav > a:hover {
 }
 
 .contenedor2 {
-	width: 90%;
+	width: 100%;
 	max-width: 1000px;
 	margin: 20px auto;
+  	float: right;
 }
 
 .contenedor2 .btn-abrir-popup {

@@ -37,7 +37,6 @@ header {
   width: 100%;
   height: 600px;
   background: #000;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     hsla(0, 5%, 82%, 0.459),
@@ -277,10 +276,6 @@ main .blog {
 .contenedor-blog {
   display: flex;
   justify-content: space-evenly;
-}
-
-.blog .contenido-textos {
-  /* width: 48%; */
 }
 
 .contenido-textos p {

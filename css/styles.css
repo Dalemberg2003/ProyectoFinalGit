@@ -75,9 +75,10 @@ nav > a:hover {
 }
 
 .contenedor2 {
-	width: 90%;
+	width: 100%;
 	max-width: 1000px;
 	margin: 20px auto;
+  float: right;
 }
 
 .contenedor2 .btn-abrir-popup {
@@ -464,6 +465,12 @@ footer {
 
   nav > a {
     margin-right: 5px;
+  }
+
+  .btn-abrir-popu {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .textos-header h1 {

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="/assets/images/logo.png" alt="" class="logo">
+        <!-- <img src="/assets/images/avatar.jpg" alt="" class="avatar">  -->
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Comidas</a>
+            <a href="#">Carrito</a>
+            <a href="#">Blog</a>
+            <div class="contenedor2">
+                <button id="btn-abrir-popup" class="btn-abrir-popup">Cerrar sesión</button>
+                <div class="overlay" id="overlay">
+                    <div class="popup" id="popup">
+                        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                        <h3>¿Esta seguro que desea cerrar sesión?</h3>
+                        <button class="btn-abrir-popup">Cerrar sesión</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="textos-header">
+            <h1>Pide lo que quieras</h1>
+            <h2>Y nosotros te lo llevamos</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor blog">
+            <h2 class="titulo">Blog</h2>
+            <div class="contenedor-blog">
+                <!-- <img src="img/ilustracion2.svg" alt="" class="imagen-about-us"> -->
+                <div class="contenido-textos">
+                    <h3><span>1</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                    <h3><span>2</span>Alimentos saludables</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
+                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
+                        velit doloribus laboriosam ut.</p>
+                </div>
+            </div>
+        </section>
+        <section class="food">
+            <div class="contenedor">
+                <h2 class="titulo">Comidas</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida1.jpg" alt="">
+                            <p>$10.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida2.jpg" alt="">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida3.jpg" alt="">
+                            <p>$5.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida4.jpg" alt="">
+                            <p>$5.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida5.jpg" alt="">
+                            <p>$8.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida3.jpg" alt="">
+                            <p>$5.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida1.jpg" alt="">
+                            <p>$10.00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="/assets/images/comida2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="/assets/images/comida2.jpg" alt="">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Celular</h4>
+                <p>1506957</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>fasfoot@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Av. las orquideas</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Fast Foot | 2021 - 2022</h2>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

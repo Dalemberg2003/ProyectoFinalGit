@@ -460,20 +460,6 @@ footer {
     width: 95%;
   }
 
-  /* Clients */
-
-  .cards .card {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cards .card img {
-    width: 90px;
-    height: 90px;
-  }
-
   /* Footer */
 
   .contenedor-footer {

@@ -79,8 +79,6 @@ nav > a:hover {
 	max-width: 1000px;
 	margin: 20px auto;
   float: right;
-  position: relative;
-  top: -30px;
 }
 
 .contenedor2 .btn-abrir-popup {
@@ -276,7 +274,11 @@ main .blog {
 }
 
 .blog .contenido-textos {
-  width: 48%;
+  /* width: 48%; */
+}
+
+.contenido-textos p {
+  font-size: 20px;
 }
 
 .contenido-textos h3 {
@@ -462,20 +464,6 @@ footer {
     width: 95%;
   }
 
-  /* Clients */
-
-  .cards .card {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cards .card img {
-    width: 90px;
-    height: 90px;
-  }
-
   /* Footer */
 
   .contenedor-footer {
@@ -501,4 +489,5 @@ footer {
   .titulo-final {
     font-size: 20px;
   }
+}
 }
